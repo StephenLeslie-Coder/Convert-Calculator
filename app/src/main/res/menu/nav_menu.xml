@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:icon="@drawable/ic_camera_"
+        android:id="@+id/import_menu"
+        android:title="Import"
+        />
+    <item
+        android:icon="@drawable/ic_photo_lib"
+        android:id="@+id/gallery_menu"
+        android:title="Gallery" />
+    <item
+        android:icon="@drawable/ic_video_library_sldie"
+        android:id="@+id/slideshow_menu"
+        android:title="Slideshow" />
+    <item
+        android:icon="@drawable/ic_build_"
+        android:id="@+id/tools_menu"
+        android:title="Tools" />
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:icon="@drawable/ic_share_"
+                android:id="@+id/share_menu"
+                android:title="Share" />
+            <item
+                android:icon="@drawable/ic_send"
+                android:id="@+id/send_menu"
+                android:title="Send" />
+        </menu>
+    </item>
+
+
+</menu>
